@@ -1,0 +1,126 @@
+.main-container{
+    width: 500px;
+    height: 600px;  
+    background-color: #34495e;
+    border-radius: 10px;
+    border: 1px, solid,red;
+    position: relative;
+}
+
+.hTags-container{
+    top: 100px;
+    left: 30px;
+    position: absolute;
+
+}
+
+#lineOne{
+    color: #ecf0f1;
+}
+
+#lineTwo{
+    color: #27ae60;    
+}
+h3{
+    color: #ecf0f1;
+}
+.btn-container{
+    top:350px;
+    left: 30px;
+    position: absolute;
+}
+#generate-btn{
+    width:200px;
+    height: 30px;
+    background-color: #27ae60;
+    border-radius: 5px;
+    cursor:hand;
+
+}
+
+
+.line-container{
+    top:430px;
+    width: 500px;
+    position: absolute;
+}
+
+#hLine{
+    color: #ecf0f1;
+    z-index: 10;
+    width: 450px;
+}
+
+.password-container{
+    top:450px;
+    width:500px;
+    position: absolute;
+}
+
+.pasOneDiv{
+    width:180px;
+    height: 30px;
+    left: 40px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#passwordOne{
+    width:180px;
+    text-align: center;  
+}
+
+.pasTwoDiv{
+    width:180px;
+    height: 30px;
+    right: 40px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#passwordTwo{
+    width:180px;
+    text-align: center;  
+}
+
+.copyBtnOneContainer{
+    width:180px;
+    height: 30px;
+    top: 50px;
+    left: 70px;
+    background-color:none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#copyOne-btn{
+    height: 30px;
+    width:100px;
+    text-align: center;
+    position: relative;  
+}
+
+.copyBtnTwoContainer{
+    width:180px;
+    height: 30px;
+    top: 50px;
+    Right: 0px;
+    background-color:none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+#copyTwo-btn{
+    height: 30px;
+    width:100px;
+    text-align: center;
+    position: relative;  
+}
